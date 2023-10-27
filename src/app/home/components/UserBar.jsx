@@ -31,7 +31,7 @@ function UserBar() {
       {save ? (
         <></>
       ) : (
-        <Button type="button" variant="outlined">
+        <Button type="submit" variant="outlined">
           save
         </Button>
       )}

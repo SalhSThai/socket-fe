@@ -9,11 +9,9 @@ function Nav({ className }) {
   const router = useRouter();
 
   return (
-    <div
-      className={`sticky top-0 w-full h-[10vh] flex justify-between px-10 z-10 bg-black shadow-md shadow-slate-300 ${className}`}
-    >
+    <div className={`sticky top-0 w-full h-[10vh] flex justify-between items-center px-10 z-10 bg-black shadow-md shadow-slate-300 ${className}`}>
       <img
-        className="w-20 h-20"
+        className="w-16 h-16"
         src="https://avatars.githubusercontent.com/u/10566080?s=280&v=4"
         alt="logo"
         role="button"

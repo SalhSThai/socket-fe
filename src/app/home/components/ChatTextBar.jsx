@@ -35,7 +35,7 @@ function ChatTextBar({ addNewMessage }) {
         onChange={(e) => setMessage(e.target.value)}
         disabled={!login}
       />
-      <Button className="rounded-md" variant="outlined">
+      <Button type="submit" className="rounded-md" variant="outlined">
         <HiChevronRight rotate={"right"} />
       </Button>
     </form>

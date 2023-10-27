@@ -14,7 +14,7 @@ function ChatBox() {
 
   socket.on("receiveMessage", (input) => {
     console.log(input);
-    if (input.from !== userName) addNewMessage(input);
+    addNewMessage(input);
   });
   useEffect(() => {
     return () => socket.off("receiveMessage");
